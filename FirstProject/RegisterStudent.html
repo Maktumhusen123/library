@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Librarian Registration Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="logodiv">
+        <a href="http://aiim-edu.org/" target="_blank">
+          <img src="images/anjuman.jfif" class="logo" alt="anjuman-logo" width="1500px" height="150px">
+        </a>
+      </div>
+
+      <div class="welcome">
+        <marquee direction="left" behavior="scroll"><font color="green" size="5px" face="Century Gothic">Welcome to AIISM LIBRARY MANAGEMENT SYSTEM</marquee>
+      </div>
+
+      <div class="menu">
+        <table cellpadding="10px">
+          <tr>
+            <td>
+              <a href="index.html">Home</a>
+              <a href="#">Gallery</a>
+              <a href="Qindex.html">Question Papers</a>
+              <a href="#">Help</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="ileft">
+        <img src="images/image1.jpg" alt="image1" height="500px" width="200px">
+      </div>
+      <div class="iright">
+        <img src="images/image2.jpeg" alt="image2" height="500px" width="200px">
+      </div>
+      <div class="text-right">
+        <a href="index.html" class="btn btn-lg btn-info">Logout</a>
+      </div>
+
+        <div class="text-center">
+          <h1>Student Registration</h1><br>
+          <form action="db.php" method="POST">
+              <table align="center">
+                <div class="form-group">
+                <tr>
+                  <td align="left">Enter Full Name</td>
+                  <td><input type="text" class="fwidth" name="fullname" value="" placeholder="Enter Full Name"></td>
+                </tr>
+              </div>
+              <div class="form-group">
+                <tr>
+                  <td align="left">Enter Phone number</td>
+                  <td><input type="text" class="fwidth" name="mobno" value="" placeholder="Enter Phone Number">
+                  </td>
+                </tr>
+              </div>
+              <div class="form-group">
+                <tr>
+                  <td align="left">Enter E-mail</td>
+                  <td><input type="email" class="fwidth" name="email" value="" placeholder="Enter your e-mail"></td>
+                </tr>
+              </div>
+              <div class="form-group">
+                <tr>
+                  <td align="left">Date of Birth</td>
+                  <td class="text-left"> <input type="date" name="DOB" value=""></td>
+                </tr>
+              </div>
+              <div class="form-group">
+                <tr>
+                  <td align="left">Gender</td>
+                  <td class="text-left">
+                  <input type="radio" name="gender" value="male">
+                  <label for="male" align="left">Male</label>
+                  <input type="radio" name="gender" value="female">
+                  <label for="female">Female</label>
+                </td>
+                </tr>
+              </div>
+              <div class="form-group">
+                <tr>
+                  <td class="td1">Enter Student ID</td>
+                  <td><input type="text" class="fwidth" name="userid" value="" placeholder="Enter UserID"></td>
+                </tr>
+              </div>
+              <div class="form-group">
+                <tr>
+                  <td class="td1">Enter Password</td>
+                  <td>  <input type="password" class="fwidth" name="password" value="" placeholder="Enter Password"></td>
+                </tr>
+              </div>
+              <div class="form-group">
+                <tr>
+                  <td>Upload Your Photo:
+                  </td>
+                  <td><input type="file" name="" value=""></td>
+                </tr>
+
+              </div>
+              </table>
+              <hr>
+              <div>
+              <p class="lead"><input type="checkbox" name="acceptance" value="">
+                I agree with all details filled above are right.</p>
+              <br>
+              <input type="submit" class="btn btn-lg btn-info" name="" value="Submit">
+              </div>
+          </form>
+    </body>
+</html>

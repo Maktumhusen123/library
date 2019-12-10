@@ -1,0 +1,42 @@
+<style>
+*{
+  margin:0px;
+  height:auto;
+}
+.main{
+  max-width:100%;
+  height:auto;
+}
+.logo{
+  max-width: 100%;
+  height:auto;
+}
+.menu{
+  background: #5BC0DE;
+
+}
+.menu a{
+  color:#000000;
+  margin:0px;
+  padding:10px;
+}
+.menu a:hover{
+  font-size:20px;
+  background:orange;
+}
+#login a:hover{
+  font-family:algerian;
+}
+.ileft{
+  float:left;
+}
+.iright{
+  float: right;
+}
+.btn{
+  width:200px;
+  height:auto;
+}
+.text-center{
+  margin-top:50px;
+}
